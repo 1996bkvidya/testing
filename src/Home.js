@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 function Home() {
   const [change, setChange] = useState(false);
   const [test, setTest] = useState([]);
+  // const [test1, setTest1] = useState([]);
   useEffect(() => {
     axios
       .get("https://restcountries.com/v3.1/all?fields=name,flags")
@@ -40,6 +41,7 @@ function Home() {
           </div>
         );
       })}
+    
     </div>
   );
 }
