@@ -7,7 +7,7 @@ function Nav() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
-          Navbar
+          Vidya
         </a>
         <button
           className="navbar-toggler"
